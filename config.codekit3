@@ -9,6 +9,18 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/images\/backpack.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -129,6 +141,40 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -146,9 +192,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 527694430,
-	"displayValue": "starter-code",
+	"displayValue": "NPM-clone",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "brackets_purple"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -8,9 +8,11 @@ a {
   color: rgba(255,255,255, 0.8);
   text-decoration: none;
 }
+
 body {
   font-family: "Open Sans",sans-serif;
 }
+
 nav {
   align-items: center;
   background-color: #C12127;
@@ -22,10 +24,32 @@ nav {
   padding: 0 1.5em;
   width: 100%;
 }
+
 .heart {
   margin-right: 1em;
 }
+
 .top-links li {
   display: inline;
   margin-left: 1.5em;
+}
+
+header {
+  background-color: #1D4E69;
+  height: 432px;
+}
+
+.collaboration {
+  background-color: #273547;
+  height: 583px;
+}
+
+.what-is {
+  background-color: #206F9C;
+  height: 507px;
+}
+
+.what-can-you-make {
+  background-color: white;
+  height: 507px;
 }
