@@ -21,6 +21,26 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/css\/styles-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/images\/backpack.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -93,6 +113,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/magnifying-glass.png": {
+		"ft": 32768,
+		"iS": 769,
+		"oA": 0,
+		"oAP": "\/images\/magnifying-glass.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/mountain-climbing-bears.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -108,6 +139,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/mountain-flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/npm-logo-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/npm-logo-vector.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -164,26 +205,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
