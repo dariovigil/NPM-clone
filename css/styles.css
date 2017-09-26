@@ -41,6 +41,11 @@ nav {
 nav a {
   color: rgba(255, 255, 255, 0.8); }
 
+nav a:hover {
+  color: white;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out; }
+
 .heart {
   margin-right: 1em; }
 
@@ -59,6 +64,9 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1.5rem; }
+
+.npm-description p {
+  font-size: 18px; }
 
 header li {
   display: inline; }
@@ -115,6 +123,14 @@ input {
   display: -ms-flexbox;
   display: flex;
   margin-left: 1em; }
+  .signup-login a {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 .5em;
+    text-decoration: none; }
+  .signup-login a:hover {
+    color: white;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
 
 .signup-login a {
   color: rgba(255, 255, 255, 0.8);
@@ -131,19 +147,28 @@ input {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: 160px;
   width: 500px; }
+  .npm-description p {
+    margin-bottom: 2em; }
   .npm-description .btn {
-    background-color: #f09233; }
+    background-color: #f09233;
+    font-size: 18px; }
+  .npm-description .btn:hover {
+    background-color: #E97E11;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
 
 .title h1 {
   font-weight: 400;
-  font-size: 3em; }
+  font-size: 3em;
+  margin-bottom: 0.3em; }
 
 h2 {
   font-weight: 300;
-  font-size: 2em; }
+  font-size: 2.3em;
+  margin-bottom: .5em; }
 
 .collaboration {
   background-color: #273547;
@@ -157,22 +182,81 @@ h2 {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 583px;
-  padding: 0 10em;
+  padding: 0 9em;
   width: 100%; }
   .collaboration img {
     width: 547px;
-    margin-right: 3em; }
+    margin-right: 4em; }
   .collaboration .btn {
-    background-color: #AC2E2D; }
+    background-color: #CB3837;
+    margin-bottom: .5em;
+    font-size: 18px; }
+  .collaboration .btn:hover {
+    background-color: #AC2E2D;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
   .collaboration li {
-    list-style-type: disc; }
+    list-style-type: disc;
+    margin-bottom: 1em; }
+  .collaboration p a {
+    font-weight: 600; }
+  .collaboration p a:hover {
+    text-decoration: underline; }
+
+.collaboration-description ul {
+  margin-bottom: 2em;
+  margin-left: 1em; }
 
 .what-is {
   background-color: #206F9C;
   background-image: url("../images/forklift.svg");
   height: 507px;
   position: relative; }
+  .what-is .btn {
+    background-color: #34495e; }
+  .what-is .btn:hover {
+    background-color: #253544; }
 
 .what-can-you-make {
   background-color: white;
-  height: 507px; }
+  color: #6d7986;
+  height: 507px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .what-can-you-make h2, .what-can-you-make h3 {
+    color: #373d48;
+    font-weight: 600; }
+  .what-can-you-make h2 {
+    font-weight: 300; }
+
+.heading {
+  text-align: center;
+  margin: 4em 0 3em 0; }
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%; }
+  .items h3 {
+    margin-bottom: .5em; }
+  .items div {
+    width: 25%; }
+  .items img {
+    margin-bottom: .5em; }
+  .items a {
+    color: #cb3837; }
+  .items a:hover {
+    color: #d1504f;
+    text-decoration: underline; }

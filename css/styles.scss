@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+
+
 ul {
   list-style: none;
 }
@@ -41,6 +43,11 @@ nav a {
   color: rgba(255,255,255, 0.8);
 }
 
+nav a:hover {
+  color: white;
+  transition: all 300ms ease-out;
+}
+
 .heart {
   margin-right: 1em;
 }
@@ -58,7 +65,9 @@ header {
   justify-content: space-between;
   padding: 1.5rem;
 }
-
+.npm-description p {
+  font-size: 18px;
+}
 header li {
   display: inline;
 }
@@ -115,6 +124,18 @@ input {
   color: rgba(255, 255, 255, 0.8);
   display: flex;
   margin-left: 1em;
+
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 .5em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+    transition: all 300ms ease-out;
+  }
+
 }
 
 .signup-login a {
@@ -131,24 +152,36 @@ input {
   color: white;
   flex-direction: column;
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: 160px;
   width: 500px;
 
+  p {
+    margin-bottom: 2em;
+  }
 
   .btn {
     background-color: #f09233;
+    font-size: 18px;
   }
+
+  .btn:hover {
+    background-color: #E97E11;
+    transition: all 300ms ease-out;
+  }
+
 }
 
 .title h1 {
   font-weight: 400;
   font-size: 3em;
+  margin-bottom: 0.3em;
 }
 
 h2 {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 2.3em;
+  margin-bottom: .5em;
 }
 .collaboration {
   background-color: #273547;
@@ -157,32 +190,104 @@ h2 {
   align-items: center;
   justify-content: space-around;
   height: 583px;
-  padding: 0 10em;
+  padding: 0 9em;
   width: 100%;
 
   img {
     width: 547px;
-    margin-right: 3em;
+    margin-right: 4em;
   }
 
   .btn {
+    background-color: #CB3837;
+    margin-bottom: .5em;
+    font-size: 18px;
+  }
+
+  .btn:hover {
     background-color: #AC2E2D;
+    transition: all 300ms ease-out;
   }
 
   li {
     list-style-type: disc;
+    margin-bottom: 1em;
+  }
+
+  p a {
+    font-weight: 600;
+  }
+
+  p a:hover {
+    text-decoration: underline;
   }
 
 }
+
+.collaboration-description  ul {
+    margin-bottom: 2em;
+    margin-left: 1em;
+  }
+
+
 
 .what-is {
   background-color: #206F9C;
   background-image: url("../images/forklift.svg");
   height: 507px;
   position: relative;
-}
 
+  .btn {
+    background-color: #34495e;
+  }
+
+  .btn:hover {
+    background-color: #253544;
+  }
+}
 .what-can-you-make {
   background-color: white;
+  color: #6d7986;
   height: 507px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2, h3 {
+    color: #373d48;
+    font-weight: 600;
+  }
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.heading {
+  text-align: center;
+  margin: 4em 0 3em 0;
+}
+
+.items {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 80%;
+
+  h3 {
+    margin-bottom: .5em; 
+  }
+
+  div {
+    width: 25%;
+  }
+  img {
+    margin-bottom: .5em;
+  }
+  a {
+    color: #cb3837;
+  }
+
+  a:hover {
+    color: #d1504f;
+    text-decoration: underline;
+  }
 }
